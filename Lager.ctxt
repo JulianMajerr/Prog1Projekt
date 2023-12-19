@@ -1,5 +1,9 @@
 #BlueJ class context
 comment0.target=Lager
-comment1.params=
-comment1.target=Lager()
-numComments=2
+comment1.params=lagerName
+comment1.target=Lager(java.lang.String)
+comment2.params=
+comment2.target=java.util.ArrayList\ gibLagerInhalt()
+comment3.params=
+comment3.target=java.lang.String\ gibLagerName()
+numComments=4

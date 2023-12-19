@@ -2,13 +2,19 @@ import java.util.*;
 
 public class Lager
 {
+    private String lagerName;
+    private ArrayList<Regal> lagerInhalt;
+    private int lagerKapazitaet;
     
-    ArrayList<int[]> regale = new ArrayList<int[]>();
+    public Lager(String lagerName){ 
+        this.lagerName = lagerName;        
+    }
     
-    public Lager(){ 
-        int regal1[] = new int[50];
-        regale.add(regal1);
-        
-        
+    public ArrayList gibLagerInhalt(){
+        return lagerInhalt;
+    }
+    
+    public String gibLagerName(){
+        return lagerName;
     }
 }

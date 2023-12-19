@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Artikel
+comment1.params=artikelName\ artikelNummer\ artikelWert\ groesse
+comment1.target=Artikel(java.lang.String,\ java.lang.String,\ int,\ int)
+comment2.params=
+comment2.target=java.lang.String\ gibName()
+comment3.params=
+comment3.target=java.lang.String\ gibNummer()
+comment4.params=
+comment4.target=int\ gib()
+comment5.params=bestand
+comment5.target=void\ bestandAendern(int)
+numComments=6

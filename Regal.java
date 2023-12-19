@@ -1,13 +1,22 @@
-
-
+import java.util.*;
 public class Regal
 {
-    int size;
-    int[] faecher;
-    public Regal(int size)
+    private String regalNummer;
+    private ArrayList<Artikel> regalInhalt;
+    private int regalfachkapazitaet;
+    
+    public Regal(String regalNummer)
     {
-        this.size = size;
-        faecher = new int[size];
+        this.regalNummer = regalNummer;
     }
+    
+    public ArrayList gibInhalt(){
+        return regalInhalt;
+    }
+    
+    public String gibNummer(){
+        return regalNummer;
+    }   
+
 
 }

@@ -1,5 +1,9 @@
 #BlueJ class context
 comment0.target=Regal
-comment1.params=size
-comment1.target=Regal(int)
-numComments=2
+comment1.params=regalNummer
+comment1.target=Regal(java.lang.String)
+comment2.params=
+comment2.target=java.util.ArrayList\ gibInhalt()
+comment3.params=
+comment3.target=java.lang.String\ gibNummer()
+numComments=4
